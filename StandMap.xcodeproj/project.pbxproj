@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681FF8711D6CA6D30061D4EE /* standMapImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681FF8701D6CA6D30061D4EE /* standMapImage.jpg */; };
+		6830C3FD1D6F056500846B8F /* hotspotImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6830C3FC1D6F056500846B8F /* hotspotImage.png */; };
+		6830C3FF1D70402600846B8F /* RedHotspotImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6830C3FE1D70402600846B8F /* RedHotspotImage.png */; };
+		6830C4011D70A08700846B8F /* StandMapHotspotLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830C4001D70A08700846B8F /* StandMapHotspotLayerView.swift */; };
 		68CB08461D6B047600B6A3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB08451D6B047600B6A3B2 /* AppDelegate.swift */; };
-		68CB08481D6B047600B6A3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB08471D6B047600B6A3B2 /* ViewController.swift */; };
+		68CB08481D6B047600B6A3B2 /* StandMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB08471D6B047600B6A3B2 /* StandMapViewController.swift */; };
 		68CB084B1D6B047600B6A3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CB08491D6B047600B6A3B2 /* Main.storyboard */; };
 		68CB084D1D6B047600B6A3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CB084C1D6B047600B6A3B2 /* Assets.xcassets */; };
 		68CB08501D6B047600B6A3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CB084E1D6B047600B6A3B2 /* LaunchScreen.storyboard */; };
 		68CB085B1D6B047600B6A3B2 /* StandMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB085A1D6B047600B6A3B2 /* StandMapTests.swift */; };
 		68CB08661D6B047600B6A3B2 /* StandMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB08651D6B047600B6A3B2 /* StandMapUITests.swift */; };
+		68CB08741D6B143300B6A3B2 /* StandMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB08731D6B143300B6A3B2 /* StandMapView.swift */; };
+		68CB08761D6B15A900B6A3B2 /* Hotspot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB08751D6B15A900B6A3B2 /* Hotspot.swift */; };
+		68CB08781D6B1B1700B6A3B2 /* StandMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB08771D6B1B1700B6A3B2 /* StandMap.swift */; };
+		68CB087C1D6B359E00B6A3B2 /* StandMap.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CB087B1D6B359E00B6A3B2 /* StandMap.json */; };
+		6BD018E8A12FF97637A62844 /* Pods_StandMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056BCB5E243D07209C8E64E7 /* Pods_StandMap.framework */; };
+		9D2898BBD59614393D596FD9 /* Pods_StandMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831BDF4DB1523E6BA848F5A0 /* Pods_StandMapTests.framework */; };
+		FEF347F93CA746F0683EC667 /* Pods_StandMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4808569BAB20634E30EE8E0 /* Pods_StandMapUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042B64F326039C5CF3972C09 /* Pods-StandMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StandMapTests/Pods-StandMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		056BCB5E243D07209C8E64E7 /* Pods_StandMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F50B0FB6F451C34385C4A5D /* Pods-StandMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StandMapTests/Pods-StandMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		648A803CDC31CE0BFCC147D3 /* Pods-StandMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StandMap/Pods-StandMap.debug.xcconfig"; sourceTree = "<group>"; };
+		681FF8701D6CA6D30061D4EE /* standMapImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = standMapImage.jpg; sourceTree = "<group>"; };
+		6830C3FC1D6F056500846B8F /* hotspotImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotspotImage.png; sourceTree = "<group>"; };
+		6830C3FE1D70402600846B8F /* RedHotspotImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedHotspotImage.png; sourceTree = "<group>"; };
+		6830C4001D70A08700846B8F /* StandMapHotspotLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandMapHotspotLayerView.swift; sourceTree = "<group>"; };
 		68CB08421D6B047600B6A3B2 /* StandMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CB08451D6B047600B6A3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68CB08471D6B047600B6A3B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68CB08471D6B047600B6A3B2 /* StandMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandMapViewController.swift; sourceTree = "<group>"; };
 		68CB084A1D6B047600B6A3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68CB084C1D6B047600B6A3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68CB084F1D6B047600B6A3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,15 @@
 		68CB08611D6B047600B6A3B2 /* StandMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CB08651D6B047600B6A3B2 /* StandMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandMapUITests.swift; sourceTree = "<group>"; };
 		68CB08671D6B047600B6A3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CB08731D6B143300B6A3B2 /* StandMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandMapView.swift; sourceTree = "<group>"; };
+		68CB08751D6B15A900B6A3B2 /* Hotspot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotspot.swift; sourceTree = "<group>"; };
+		68CB08771D6B1B1700B6A3B2 /* StandMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandMap.swift; sourceTree = "<group>"; };
+		68CB087B1D6B359E00B6A3B2 /* StandMap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StandMap.json; sourceTree = "<group>"; };
+		6E75A6FDF94A520ACA9FDFF7 /* Pods-StandMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StandMapUITests/Pods-StandMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FE755C5D536E513A043FBBB /* Pods-StandMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-StandMap/Pods-StandMap.release.xcconfig"; sourceTree = "<group>"; };
+		831BDF4DB1523E6BA848F5A0 /* Pods_StandMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D229A2CA9E8FBFAABA7EF5 /* Pods-StandMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StandMapUITests/Pods-StandMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4808569BAB20634E30EE8E0 /* Pods_StandMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD018E8A12FF97637A62844 /* Pods_StandMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2898BBD59614393D596FD9 /* Pods_StandMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF347F93CA746F0683EC667 /* Pods_StandMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115F1D38FF509F3F44F80359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				648A803CDC31CE0BFCC147D3 /* Pods-StandMap.debug.xcconfig */,
+				7FE755C5D536E513A043FBBB /* Pods-StandMap.release.xcconfig */,
+				042B64F326039C5CF3972C09 /* Pods-StandMapTests.debug.xcconfig */,
+				1F50B0FB6F451C34385C4A5D /* Pods-StandMapTests.release.xcconfig */,
+				6E75A6FDF94A520ACA9FDFF7 /* Pods-StandMapUITests.debug.xcconfig */,
+				A8D229A2CA9E8FBFAABA7EF5 /* Pods-StandMapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		68CB08391D6B047600B6A3B2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				68CB08591D6B047600B6A3B2 /* StandMapTests */,
 				68CB08641D6B047600B6A3B2 /* StandMapUITests */,
 				68CB08431D6B047600B6A3B2 /* Products */,
+				115F1D38FF509F3F44F80359 /* Pods */,
+				79D5EAA22548EE40A6A9C15B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +144,18 @@
 			isa = PBXGroup;
 			children = (
 				68CB08451D6B047600B6A3B2 /* AppDelegate.swift */,
-				68CB08471D6B047600B6A3B2 /* ViewController.swift */,
+				68CB08471D6B047600B6A3B2 /* StandMapViewController.swift */,
+				68CB08731D6B143300B6A3B2 /* StandMapView.swift */,
+				6830C4001D70A08700846B8F /* StandMapHotspotLayerView.swift */,
+				68CB08771D6B1B1700B6A3B2 /* StandMap.swift */,
+				68CB08751D6B15A900B6A3B2 /* Hotspot.swift */,
 				68CB08491D6B047600B6A3B2 /* Main.storyboard */,
 				68CB084C1D6B047600B6A3B2 /* Assets.xcassets */,
+				68CB087B1D6B359E00B6A3B2 /* StandMap.json */,
 				68CB084E1D6B047600B6A3B2 /* LaunchScreen.storyboard */,
+				681FF8701D6CA6D30061D4EE /* standMapImage.jpg */,
+				6830C3FC1D6F056500846B8F /* hotspotImage.png */,
+				6830C3FE1D70402600846B8F /* RedHotspotImage.png */,
 				68CB08511D6B047600B6A3B2 /* Info.plist */,
 			);
 			path = StandMap;
@@ -125,6 +179,16 @@
 			path = StandMapUITests;
 			sourceTree = "<group>";
 		};
+		79D5EAA22548EE40A6A9C15B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				056BCB5E243D07209C8E64E7 /* Pods_StandMap.framework */,
+				831BDF4DB1523E6BA848F5A0 /* Pods_StandMapTests.framework */,
+				B4808569BAB20634E30EE8E0 /* Pods_StandMapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68CB086A1D6B047600B6A3B2 /* Build configuration list for PBXNativeTarget "StandMap" */;
 			buildPhases = (
+				5375FE70420D635F70E66FC6 /* [CP] Check Pods Manifest.lock */,
 				68CB083E1D6B047600B6A3B2 /* Sources */,
 				68CB083F1D6B047600B6A3B2 /* Frameworks */,
 				68CB08401D6B047600B6A3B2 /* Resources */,
+				7E39C76943DEE7D2353FA0F3 /* [CP] Embed Pods Frameworks */,
+				FAF048E9C9440CD21C64CE54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68CB086D1D6B047600B6A3B2 /* Build configuration list for PBXNativeTarget "StandMapTests" */;
 			buildPhases = (
+				2FDDD09AEB5B6C792705D339 /* [CP] Check Pods Manifest.lock */,
 				68CB08521D6B047600B6A3B2 /* Sources */,
 				68CB08531D6B047600B6A3B2 /* Frameworks */,
 				68CB08541D6B047600B6A3B2 /* Resources */,
+				DFC6AC5F2F8DAE62D2190D8F /* [CP] Embed Pods Frameworks */,
+				23E0BDC981325D255EB6E96F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68CB08701D6B047600B6A3B2 /* Build configuration list for PBXNativeTarget "StandMapUITests" */;
 			buildPhases = (
+				3CDB2E11BDB84EF3B6AC9EBE /* [CP] Check Pods Manifest.lock */,
 				68CB085D1D6B047600B6A3B2 /* Sources */,
 				68CB085E1D6B047600B6A3B2 /* Frameworks */,
 				68CB085F1D6B047600B6A3B2 /* Resources */,
+				B6CB497C065EF980F72487B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CB08501D6B047600B6A3B2 /* LaunchScreen.storyboard in Resources */,
+				6830C3FF1D70402600846B8F /* RedHotspotImage.png in Resources */,
+				6830C3FD1D6F056500846B8F /* hotspotImage.png in Resources */,
+				68CB087C1D6B359E00B6A3B2 /* StandMap.json in Resources */,
+				681FF8711D6CA6D30061D4EE /* standMapImage.jpg in Resources */,
 				68CB084D1D6B047600B6A3B2 /* Assets.xcassets in Resources */,
 				68CB084B1D6B047600B6A3B2 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +330,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23E0BDC981325D255EB6E96F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMapTests/Pods-StandMapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FDDD09AEB5B6C792705D339 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CDB2E11BDB84EF3B6AC9EBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5375FE70420D635F70E66FC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E39C76943DEE7D2353FA0F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMap/Pods-StandMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CB497C065EF980F72487B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMapUITests/Pods-StandMapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC6AC5F2F8DAE62D2190D8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMapTests/Pods-StandMapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF048E9C9440CD21C64CE54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMap/Pods-StandMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68CB083E1D6B047600B6A3B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CB08481D6B047600B6A3B2 /* ViewController.swift in Sources */,
+				68CB08781D6B1B1700B6A3B2 /* StandMap.swift in Sources */,
+				68CB08741D6B143300B6A3B2 /* StandMapView.swift in Sources */,
+				68CB08761D6B15A900B6A3B2 /* Hotspot.swift in Sources */,
+				68CB08481D6B047600B6A3B2 /* StandMapViewController.swift in Sources */,
+				6830C4011D70A08700846B8F /* StandMapHotspotLayerView.swift in Sources */,
 				68CB08461D6B047600B6A3B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +605,7 @@
 		};
 		68CB086B1D6B047600B6A3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648A803CDC31CE0BFCC147D3 /* Pods-StandMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StandMap/Info.plist;
@@ -413,6 +617,7 @@
 		};
 		68CB086C1D6B047600B6A3B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE755C5D536E513A043FBBB /* Pods-StandMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StandMap/Info.plist;
@@ -424,6 +629,7 @@
 		};
 		68CB086E1D6B047600B6A3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042B64F326039C5CF3972C09 /* Pods-StandMapTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StandMapTests/Info.plist;
@@ -436,6 +642,7 @@
 		};
 		68CB086F1D6B047600B6A3B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F50B0FB6F451C34385C4A5D /* Pods-StandMapTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StandMapTests/Info.plist;
@@ -448,6 +655,7 @@
 		};
 		68CB08711D6B047600B6A3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E75A6FDF94A520ACA9FDFF7 /* Pods-StandMapUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = StandMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +667,7 @@
 		};
 		68CB08721D6B047600B6A3B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D229A2CA9E8FBFAABA7EF5 /* Pods-StandMapUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = StandMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,6 +696,7 @@
 				68CB086C1D6B047600B6A3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CB086D1D6B047600B6A3B2 /* Build configuration list for PBXNativeTarget "StandMapTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +705,7 @@
 				68CB086F1D6B047600B6A3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CB08701D6B047600B6A3B2 /* Build configuration list for PBXNativeTarget "StandMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +714,7 @@
 				68CB08721D6B047600B6A3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

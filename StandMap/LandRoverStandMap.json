@@ -1,0 +1,50 @@
+{
+    "StandMap":[
+                {
+                "titleText":"The Paris Auto Show\nStand Map",
+                "mapImageFileName":"StandMapImage.jpg",
+                "hotspots":[
+                            {
+                            "title":"RETAIL",
+                            "text":"Buy Land Rover accessories",
+                            "image":"hotspotImage.png",
+                            "titleXCoordinate":0.51,
+                            "titleYCoordinate":-0.06,
+                            "hotspotXCoordinate":0.747,
+                            "hotspotYCoordinate":0.435,
+                            "url":"app:///"
+                            },
+                            {
+                            "title":"SALES",
+                            "text":"Ask a host for help",
+                            "image":"hotspotImage.png",
+                            "titleXCoordinate":-0.01,
+                            "titleYCoordinate":1.3,
+                            "hotspotXCoordinate":0.15,
+                            "hotspotYCoordinate":0.73,
+                            "url":"app:///"
+                            },
+                            {
+                            "title":"INNOVATION",
+                            "text":"Discover the science",
+                            "image":"hotspotImage.png",
+                            "titleXCoordinate":0.424,
+                            "titleYCoordinate":0.94,
+                            "hotspotXCoordinate":0.623,
+                            "hotspotYCoordinate":0.71,
+                            "url":"app:///"
+                            },
+                            {
+                            "title":"VIP",
+                            "text":"Entrance on Jaguar side",
+                            "image":"hotspotImage.png",
+                            "titleXCoordinate":0.598,
+                            "titleYCoordinate":1.115,
+                            "hotspotXCoordinate":0.943,
+                            "hotspotYCoordinate":0.71,
+                            "url":"app:///"
+                            }
+                            ]
+                }
+                ]
+}

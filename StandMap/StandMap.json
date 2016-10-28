@@ -1,0 +1,60 @@
+{
+   "StandMap":[
+      {
+         "titleText":"The Paris Auto Show\nStand Map",
+         "mapImageFileName":"StandMapImage.jpg",
+         "hotspots":[
+            {
+               "title":"RETAIL",
+               "text":"Buy Jaguar Clothes!",
+               "image":"hotspotImage.png",
+               "titleXCoordinate":0.08,
+               "titleYCoordinate":0.10,
+               "hotspotXCoordinate":0.11,
+               "hotspotYCoordinate":0.405,
+               "url":"app:///"
+            },
+            {
+               "title":"FORMULA E",
+               "text":"Drive the Formula Car in VR",
+               "image":"hotspotImage.png",
+               "titleXCoordinate":0.50,
+               "titleYCoordinate":0.01,
+               "hotspotXCoordinate":0.747,
+               "hotspotYCoordinate":0.435,
+               "url":"app:///"
+            },
+            {
+               "title":"INNOVATION",
+               "text":"Discover the science",
+               "image":"hotspotImage.png",
+               "titleXCoordinate":0.028,
+               "titleYCoordinate":0.92,
+               "hotspotXCoordinate":0.245,
+               "hotspotYCoordinate":0.71,
+               "url":"app:///"
+            },
+            {
+               "title":"SALES",
+               "text":"Ask a host for sales",
+               "image":"hotspotImage.png",
+               "titleXCoordinate":0.42,
+               "titleYCoordinate":1.1,
+               "hotspotXCoordinate":0.575,
+               "hotspotYCoordinate":0.735,
+               "url":"app:///"
+            },
+            {
+               "title":"VIP",
+               "text":"Entrance",
+               "image":"hotspotImage.png",
+               "titleXCoordinate":0.67,
+               "titleYCoordinate":0.84,
+               "hotspotXCoordinate":0.945,
+               "hotspotYCoordinate":0.612,
+               "url":"app:///"
+            }
+         ]
+      }
+   ]
+}
